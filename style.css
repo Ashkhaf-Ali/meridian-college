@@ -1,1 +1,21 @@
+:root {
+  --midnight: #0D1B2A;
+  --navy: #1B263B;
+  --steel: #415A77;
+  --sage: #778D7A;
+  --sand: #D4C4A8;
+  --cream: #F4F1DE;
+  --error: #B3412F;
+}
 
+body {
+  margin: 0;
+  padding: 48px;
+  background-color: var(--cream);
+  color: var(--midnight);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: var(--navy);
+}
